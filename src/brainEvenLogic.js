@@ -17,7 +17,7 @@ export default () => {
       console.log(`Let's try again, ${playerName}!`);
       return;
     }
-    //console.log(`Your answer: ${answer}`);
+    // console.log(`Your answer: ${answer}`);
     console.log('Correct!');
   }
   console.log(`Congratulations, ${playerName}!`);
