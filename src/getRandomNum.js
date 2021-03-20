@@ -1,1 +1,1 @@
-export default () => Math.ceil(Math.random() * 100);
+export default (coef = 15) => Math.round(Math.random() * coef);
