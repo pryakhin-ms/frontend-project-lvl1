@@ -1,6 +1,7 @@
 import readlineSync from 'readline-sync';
 import brainCalcLogic from './games/brainCalcLogic.js';
 import brainEvenLogic from './games/brainEvenLogic.js';
+import brainGcdLogic from './games/brainGcdLogic.js';
 
 const gameEngine = (game) => () => {
   console.log('Welcome to the Brain Games!');
@@ -24,3 +25,4 @@ const gameEngine = (game) => () => {
 
 export const brainCalc = gameEngine(brainCalcLogic);
 export const brainEven = gameEngine(brainEvenLogic);
+export const brainGcd = gameEngine(brainGcdLogic);
