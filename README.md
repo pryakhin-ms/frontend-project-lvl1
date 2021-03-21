@@ -8,3 +8,5 @@
 <a href="https://asciinema.org/a/G5s1duaaQ4cBXiey900CmArVi" target="_blank"><img src="https://asciinema.org/a/G5s1duaaQ4cBXiey900CmArVi.svg" /></a>
 ### Brain-Calc ASCIInema:
 <a href="https://asciinema.org/a/kPzUNPjoYGO27KYVLLpJSHzq8" target="_blank"><img src="https://asciinema.org/a/kPzUNPjoYGO27KYVLLpJSHzq8.svg" /></a>
+### Brain-GCD ASCIInema:
+<a href="https://asciinema.org/a/KaV0OJicc2WnGTdTQ7mR0xsEB" target="_blank"><img src="https://asciinema.org/a/KaV0OJicc2WnGTdTQ7mR0xsEB.svg" /></a>
