@@ -1,5 +1,5 @@
 // import readlineSync from 'readline-sync';
-import getRandomNum from './getRandomNum.js';
+import getRandomNum from '../getRandomNum.js';
 
 export default (mode) => {
   if (mode === 'GENERATE_TASK') {
