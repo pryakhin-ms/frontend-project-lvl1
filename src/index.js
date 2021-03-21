@@ -1,5 +1,6 @@
 import readlineSync from 'readline-sync';
 import brainCalcLogic from './brainCalcLogic.js';
+import brainEvenLogic from './brainEvenLogic.js';
 
 const gameEngine = (game) => () => {
   console.log('Welcome to the Brain Games!');
@@ -9,8 +10,8 @@ const gameEngine = (game) => () => {
   for (let i = 0; i < 3; i += 1) {
     const [question, answer] = game();
     console.log(`Question: ${question}`);
-    const userAnswer = parseInt(readlineSync.question('Your answer: '), 10);
-    if (answer !== userAnswer) {
+    const userAnswer = readlineSync.question('Your answer: ');
+    if (answer.toString() !== userAnswer) {
       console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${answer}.`);
       console.log(`Let's try again, ${playerName}!`);
       return;
@@ -22,4 +23,4 @@ const gameEngine = (game) => () => {
 };
 
 export const brainCalc = gameEngine(brainCalcLogic);
-export const a = 5;
+export const brainEven = gameEngine(brainEvenLogic);
