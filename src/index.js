@@ -3,6 +3,7 @@ import brainCalcLogic from './games/brainCalcLogic.js';
 import brainEvenLogic from './games/brainEvenLogic.js';
 import brainGcdLogic from './games/brainGcdLogic.js';
 import brainProgressionLogic from './games/brainProgressionLogic.js';
+import brainPrimeLogic from './games/brainPrimeLogic.js';
 
 const gameEngine = (game) => () => {
   console.log('Welcome to the Brain Games!');
@@ -14,7 +15,7 @@ const gameEngine = (game) => () => {
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
     if (answer.toString() !== userAnswer) {
-      console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${answer}.`);
+      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${answer}'.`);
       console.log(`Let's try again, ${playerName}!`);
       return;
     }
@@ -28,3 +29,4 @@ export const brainCalc = gameEngine(brainCalcLogic);
 export const brainEven = gameEngine(brainEvenLogic);
 export const brainGcd = gameEngine(brainGcdLogic);
 export const brainProgression = gameEngine(brainProgressionLogic);
+export const brainPrime = gameEngine(brainPrimeLogic);
