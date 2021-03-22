@@ -8,9 +8,9 @@ export default (mode) => {
   const num1 = getRandomNum(20);
   const num2 = getRandomNum(20);
   const expression = [
-    [`${num1}+${num2}`, num1 + num2],
-    [`${num1}-${num2}`, num1 - num2],
-    [`${num1}*${num2}`, num1 * num2],
+    [`${num1} + ${num2}`, num1 + num2],
+    [`${num1} - ${num2}`, num1 - num2],
+    [`${num1} * ${num2}`, num1 * num2],
   ];
   return expression[num1 % 3];
 };
