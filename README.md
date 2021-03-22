@@ -12,3 +12,5 @@
 <a href="https://asciinema.org/a/KaV0OJicc2WnGTdTQ7mR0xsEB" target="_blank"><img src="https://asciinema.org/a/KaV0OJicc2WnGTdTQ7mR0xsEB.svg" /></a>
 ### Brain-Progression ASCIInema:
 <a href="https://asciinema.org/a/n3WNMu64Kdk5GyJHhs7lljHgm" target="_blank"><img src="https://asciinema.org/a/n3WNMu64Kdk5GyJHhs7lljHgm.svg" /></a>
+### Brain-Prime ASCIInema:
+<a href="https://asciinema.org/a/pXGNsxvG7uCQM7JrW0X4MKuPJ" target="_blank"><img src="https://asciinema.org/a/pXGNsxvG7uCQM7JrW0X4MKuPJ.svg" /></a>
